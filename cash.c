@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main (void)
+int main(void)
 {
 //declaring the needed variables
     int coins = 0;
