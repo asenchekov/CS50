@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
     char *infile = argv[2];
     char *outfile = argv[3];
 
-    if (factor > 100) {
+    if (factor > 100)
+    {
         fprintf(stderr, "resize factor is bigger than 100\n");
         return 1;
     }
